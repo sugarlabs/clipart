@@ -1,0 +1,8 @@
+[Activity]
+name = ClipArt
+bundle_id = org.sugarlabs.ClipArt
+icon = activity
+exec = sugar-activity activity.ClipArtActivity
+show_launcher = yes
+activity_version = 1
+summary = displays available clipart that can be saved to the Sugar Journal
