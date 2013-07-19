@@ -31,7 +31,7 @@ from gi.repository import GObject
 from gettext import gettext as _
 
 MIME_TYPES = {'svg': 'image/svg+xml', 'png': 'image/png', 'gif': 'image/gif',
-              'jpg': 'image/jpg'}
+              'jpg': 'image/jpeg'}
 
 
 class ClipArtActivity(activity.Activity):
