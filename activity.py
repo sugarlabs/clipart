@@ -14,10 +14,11 @@ import os
 import glob
 
 from sugar3.activity import activity
+from sugar3.activity.widgets import ActivityToolbarButton
 from sugar3.graphics.toolbarbox import ToolbarBox
 from sugar3.activity.widgets import StopButton
 from sugar3.graphics.toolbutton import ToolButton
-from sugar3.activity.widgets import _create_activity_icon as ActivityIcon
+# from sugar3.activity.widgets import _create_activity_icon as ActivityIcon
 from sugar3.graphics.alert import NotifyAlert
 from sugar3.graphics import style
 from sugar3.datastore import datastore
@@ -37,37 +38,33 @@ MIME_TYPES = {'svg': 'image/svg+xml', 'png': 'image/png', 'gif': 'image/gif',
 class ClipArtActivity(activity.Activity):
 
     def __init__(self, handle):
-        activity.Activity.__init__(self, handle, False)
-
+        activity.Activity.__init__(self, handle)
         self._selected_image = None
+
         self.max_participants = 1
 
-        self.toolbar_box = ToolbarBox()
-        self.toolbar = self.toolbar_box.toolbar
+        toolbarbox = ToolbarBox()
+        self.set_toolbar_box(toolbarbox)
 
-        activity_button = ToolButton()
-        icon = ActivityIcon(None)
-        activity_button.set_icon_widget(icon)
-        activity_button.set_tooltip(self.get_title())
-        stop_button = StopButton(self)
-
-        separator = Gtk.SeparatorToolItem()
-        separator.props.draw = False
-        separator.set_expand(True)
+        activity_button = ActivityToolbarButton(self)
+        toolbarbox.toolbar.insert(activity_button, 0)
+        activity_button.show()
 
         self.save_button = ToolButton('image-save')
         self.save_button.set_tooltip(_('Save to Journal'))
         self.save_button.connect('clicked', self._save_to_journal)
         self.save_button.set_sensitive(False)
+        self.save_button.show()
+        toolbarbox.toolbar.insert(self.save_button, -1)
 
-        self.toolbar.insert(activity_button, 0)
-        self.toolbar.insert(Gtk.SeparatorToolItem(), -1)
-        self.toolbar.insert(self.save_button, -1)
+        separator = Gtk.SeparatorToolItem()
+        separator.props.draw = False
+        separator.set_expand(True)
+        toolbarbox.toolbar.insert(separator, -1)
 
-        self.toolbar.insert(separator, -1)
-        self.toolbar.insert(stop_button, -1)
-
-        artwork_paths = self._scan()
+        stop_button = StopButton(self)
+        toolbarbox.toolbar.insert(stop_button, -1)
+        stop_button.show()
 
         scrolled_window = Gtk.ScrolledWindow()
         scrolled_window.set_shadow_type(Gtk.ShadowType.ETCHED_IN)
@@ -80,19 +77,18 @@ class ClipArtActivity(activity.Activity):
 
         icon_view = Gtk.IconView.new_with_model(store)
         icon_view.set_selection_mode(Gtk.SelectionMode.SINGLE)
-        icon_view.connect('selection-changed', self._clipart_selected,
-                          store)
+        icon_view.connect('selection-changed', self._clipart_selected, store)
         icon_view.set_pixbuf_column(0)
         icon_view.grab_focus()
         scrolled_window.add(icon_view)
         icon_view.show()
 
-        self.set_toolbar_box(self.toolbar_box)
-        self.set_canvas(self.canvas)
+        toolbarbox.show_all()
         self.show_all()
 
         self._notify()
-        GObject.idle_add(fill_clipart_list, store, artwork_paths)
+
+        GObject.idle_add(_fill_clipart_list, store)
 
     def _save_to_journal(self, widget):
         if self._selected_image is None:
@@ -133,23 +129,6 @@ class ClipArtActivity(activity.Activity):
         self._selected_image = image_path
         self.save_button.set_sensitive(True)
 
-    def _scan(self):
-        # We need a list of all the .png, .jpg, .gif, and .svg files
-        # in ~/Activities. We don't need to search Documents since
-        # that is already available through the Journal.
-        root_path = os.path.join(os.path.expanduser('~'), 'Activities')
-        artwork_paths = []
-        for suffix in ['.png', '.jpg', '.gif', '.svg']:
-            # Look in ~/Activities/* and ~/Activities/*/*
-            file_list = glob.glob(os.path.join(root_path, '*', '*' + suffix))
-            for f in file_list:
-                artwork_paths.append(f)
-            file_list = glob.glob(os.path.join(root_path, '*', '*',
-                                               '*' + suffix))
-            for f in file_list:
-                artwork_paths.append(f)
-        return artwork_paths
-
     def _notify(self):
         alert = NotifyAlert()
         alert.props.title = _('Scanning for clipart')
@@ -163,11 +142,11 @@ class ClipArtActivity(activity.Activity):
         self.add_alert(alert)
 
 
-def fill_clipart_list(store, artwork_paths):
+def _fill_clipart_list(store):
     '''
     Append images from the artwork_paths to the store.
     '''
-    for filepath in artwork_paths:
+    for filepath in _scan_for_artwork():
         pixbuf = None
         try:
             pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size(
@@ -177,3 +156,20 @@ def fill_clipart_list(store, artwork_paths):
             pass
         else:
             store.append([pixbuf, filepath])
+
+
+def _scan_for_artwork():
+    # We need a list of all the .png, .jpg, .gif, and .svg files
+    # in ~/Activities. We don't need to search Documents since
+    # that is already available through the Journal.
+    root_path = os.path.join(os.path.expanduser('~'), 'Activities')
+    artwork_paths = []
+    for suffix in ['.png', '.jpg', '.gif', '.svg']:
+        # Look in ~/Activities/* and ~/Activities/*/*
+        file_list = glob.glob(os.path.join(root_path, '*', '*' + suffix))
+        for f in file_list:
+            artwork_paths.append(f)
+        file_list = glob.glob(os.path.join(root_path, '*', '*', '*' + suffix))
+        for f in file_list:
+            artwork_paths.append(f)
+    return artwork_paths
