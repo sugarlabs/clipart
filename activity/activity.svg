@@ -1,185 +1,275 @@
-<?xml version="1.0" ?>
-<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' [
+<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' [
 	<!ENTITY stroke_color "#000">
-	<!ENTITY fill_color "#aaa">
-]>
-<svg height="55px" viewBox="0 0 55 55" width="55px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" stroke="&stroke_color;" fill="&fill_color;">
+	<!ENTITY fill_color "#eee">
+]><svg height="55px" viewBox="0 0 55 55" width="55px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" stroke="&stroke_color;" fill="&fill_color;">
   <g
-     transform="matrix(0.55205508,0,0,0.55205508,77.118464,18.235971)"
-     id="g4382">
-    <g
-       transform="translate(-80.093659,12.220029)"
-       id="g4308"
-       style="fill:none">
-      <g
-         id="g4310"
-         style="fill:none">
-        <path
-           d="m 6.736,49.002 h 24.52 c 2.225,0 3.439,-1.447 3.439,-3.441 v -27.28 c 0,-1.73 -1.732,-3.441 -3.439,-3.441 h -4.389"
-           id="path4312"
-           style="fill:none" />
-      </g>
-    </g>
-    <g
-       transform="translate(-80.093659,12.220029)"
-       id="g4314"
-       style="fill:none">
-      <g
-         id="g4316"
-         style="fill:none">
-        <path
-           d="m 26.867,38.592 c 0,1.836 -1.345,3.201 -3.441,4.047 L 6.736,49.002 V 14.84 l 16.69,-8.599 c 2.228,-0.394 3.441,0.84 3.441,2.834 v 29.517 z"
-           id="path4318"
-           style="fill:none" />
-      </g>
-    </g>
-    <path
-       d="m -70.669659,54.827029 c 0,0 -1.351,-0.543 -2.702,-0.543 -1.351,0 -2.703,0.543 -2.703,0.543"
-       id="path4320"
-       style="fill:none" />
-    <path
-       d="m -70.669659,44.226029 c 0,0 -1.239,-0.543 -2.815,-0.543 -1.577,0 -2.59,0.543 -2.59,0.543"
-       id="path4322"
-       style="fill:none" />
-    <path
-       d="m -70.669659,33.898029 c 0,0 -1.125,-0.544 -2.927,-0.544 -1.802,0 -2.478,0.544 -2.478,0.544"
-       id="path4324"
-       style="fill:none" />
-    <line
-       style="fill:none"
-       x1="-66.884659"
-       x2="-66.884659"
-       y1="58.753029"
-       y2="23.725029"
-       id="line4326" />
-  </g>
-  <g
-     transform="matrix(1.1623273,0,0,1.1623273,-14.422024,-12.63995)"
+     transform="matrix(0.63446135,0,0,0.63446135,-0.87740642,11.991621)"
      id="g3882"
-     style="fill:none">
+     style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
     <g
        id="g3884"
-       style="fill:none">
+       style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
       <polygon
-         points="35.281,13.812 15.204,13.812 15.204,35.189 43.041,35.189 43.041,21.577 "
+         points="43.041,21.577 35.281,13.812 15.204,13.812 15.204,35.189 43.041,35.189 "
          id="polygon3886"
-         style="fill:none" />
+         style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <polyline
          id="polyline3888"
          points="35.281,13.812 35.281,21.577 43.041,21.577    "
-         style="fill:none" />
+         style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
   </g>
   <g
-     transform="matrix(1,0,0,-1,-24.850339,47.707501)"
-     id="g4770">
-    <g
-       transform="translate(34.0803,-1006.42)"
-       id="g4772">
-      <polyline
-         transform="matrix(-0.469241,0.469241,-0.469241,-0.469241,66.2906,1019.03)"
-         style="fill:none"
-         points="51.562,15.306 41.17,16.188 42.053,5.794"
-         id="polyline4774" />
-      <path
-         d="m 39.363241,1033.1291 -0.05636,9.9115 -8.750608,0.067"
-         id="path4776"
-         style="fill:none" />
-    </g>
-  </g>
-  <g
-     transform="matrix(0.55205508,0,0,0.55205508,76.503414,18.153914)"
-     id="g4382-4"
-     style="fill:&fill_color;;fill-opacity:1">
-    <g
-       transform="translate(-80.093659,12.220029)"
-       id="g4308-4"
-       style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-opacity:1">
-      <g
-         id="g4310-4"
-         style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-opacity:1">
-        <path
-           d="m 6.736,49.002 h 24.52 c 2.225,0 3.439,-1.447 3.439,-3.441 v -27.28 c 0,-1.73 -1.732,-3.441 -3.439,-3.441 h -4.389"
-           id="path4312-1"
-           style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
-      </g>
-    </g>
-    <g
-       transform="translate(-80.093659,12.220029)"
-       id="g4314-9"
-       style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-opacity:1">
-      <g
-         id="g4316-1"
-         style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-opacity:1">
-        <path
-           d="m 26.867,38.592 c 0,1.836 -1.345,3.201 -3.441,4.047 L 6.736,49.002 V 14.84 l 16.69,-8.599 c 2.228,-0.394 3.441,0.84 3.441,2.834 v 29.517 z"
-           id="path4318-6"
-           style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
-      </g>
-    </g>
-    <path
-       d="m -70.669659,54.827029 c 0,0 -1.351,-0.543 -2.702,-0.543 -1.351,0 -2.703,0.543 -2.703,0.543"
-       id="path4320-9"
-       style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
-    <path
-       d="m -70.669659,44.226029 c 0,0 -1.239,-0.543 -2.815,-0.543 -1.577,0 -2.59,0.543 -2.59,0.543"
-       id="path4322-3"
-       style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
-    <path
-       d="m -70.669659,33.898029 c 0,0 -1.125,-0.544 -2.927,-0.544 -1.802,0 -2.478,0.544 -2.478,0.544"
-       id="path4324-6"
-       style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
-    <line
-       style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       x1="-66.884659"
-       x2="-66.884659"
-       y1="58.753029"
-       y2="23.725029"
-       id="line4326-6" />
-  </g>
-  <g
-     transform="matrix(1.1623273,0,0,1.1623273,-15.037074,-12.722007)"
+     transform="matrix(0.63446135,0,0,0.63446135,-1.2131341,11.94683)"
      id="g3882-5"
-     style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.15085721;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline">
+     style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
     <g
        id="g3884-1"
-       style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.15085721;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+       style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
       <polygon
-         points="43.041,21.577 35.281,13.812 15.204,13.812 15.204,35.189 43.041,35.189 "
+         points="43.041,35.189 43.041,21.577 35.281,13.812 15.204,13.812 15.204,35.189 "
          id="polygon3886-0"
-         style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.15085721;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+         style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <polyline
          id="polyline3888-4"
          points="35.281,13.812 35.281,21.577 43.041,21.577    "
-         style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.15085721;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+         style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
   </g>
   <path
-     d="m 18.811641,12.19306 c -4.727185,0 -8.666312,4.714399 -8.666312,4.714399 0,0 3.939127,4.737646 8.666312,4.735322 4.729509,-0.0046 8.668637,-4.739971 8.668637,-4.739971 0,0 -3.939128,-4.713237 -8.668637,-4.70975 z m 0,8.039818 c -1.830666,0 -3.314958,-1.484292 -3.314958,-3.31612 0,-1.827179 1.484292,-3.314958 3.314958,-3.314958 1.828341,0 3.312632,1.487779 3.312632,3.314958 0,1.831828 -1.484291,3.31612 -3.312632,3.31612 z"
+     d="m 17.263333,25.546826 c -2.580355,0 -4.730544,2.573375 -4.730544,2.573375 0,0 2.150189,2.586065 4.730544,2.584796 2.581622,-0.0025 4.731812,-2.587333 4.731812,-2.587333 0,0 -2.15019,-2.572741 -4.731812,-2.570838 z m 0,4.388569 c -0.999277,0 -1.809485,-0.810207 -1.809485,-1.810118 0,-0.997373 0.810208,-1.809484 1.809485,-1.809484 0.998007,0 1.808214,0.812111 1.808214,1.809484 0,0.999911 -0.810207,1.810118 -1.808214,1.810118 z"
      id="path3890-6"
-     style="fill:&stroke_color;;fill-opacity:1;stroke:none;display:inline" />
+     style="fill:none;stroke:&stroke_color;;stroke-width:1.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <circle
      cx="29.207001"
      cy="25.863001"
      r="1.294"
-     transform="matrix(1.1623273,0,0,1.1623273,-15.135291,-13.143351)"
+     transform="matrix(0.63446135,0,0,0.63446135,-1.2667463,11.716837)"
      id="circle3892-5"
-     style="fill:&stroke_color;;fill-opacity:1;stroke:&stroke_color;;stroke-opacity:1;display:inline" />
+     style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <g
-     transform="matrix(1,0,0,-1,-25.465389,47.625444)"
-     id="g4770-3">
+     transform="matrix(0.63446135,0,0,0.63446135,19.258932,11.963928)"
+     id="g3882-3"
+     style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
     <g
-       transform="translate(34.0803,-1006.42)"
-       id="g4772-5">
+       id="g3884-0"
+       style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+      <polygon
+         points="35.281,13.812 15.204,13.812 15.204,35.189 43.041,35.189 43.041,21.577 "
+         id="polygon3886-3"
+         style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <polyline
-         transform="matrix(-0.469241,0.469241,-0.469241,-0.469241,66.2906,1019.03)"
-         style="fill:none;stroke:&stroke_color;;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round"
-         points="51.562,15.306 41.17,16.188 42.053,5.794"
-         id="polyline4774-9" />
-      <path
-         d="m 39.363241,1033.1291 -0.05636,9.9115 -8.750608,0.067"
-         id="path4776-2"
-         style="fill:none;stroke:&stroke_color;;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+         id="polyline3888-8"
+         points="35.281,13.812 35.281,21.577 43.041,21.577    "
+         style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
   </g>
+  <g
+     transform="matrix(0.63446135,0,0,0.63446135,18.923204,11.919137)"
+     id="g3882-5-8"
+     style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+    <g
+       id="g3884-1-8"
+       style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+      <polygon
+         points="43.041,21.577 35.281,13.812 15.204,13.812 15.204,35.189 43.041,35.189 "
+         id="polygon3886-0-1"
+         style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <polyline
+         id="polyline3888-4-3"
+         points="35.281,13.812 35.281,21.577 43.041,21.577    "
+         style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+  </g>
+  <path
+     d="m 37.399671,25.519133 c -2.580354,0 -4.730544,2.573375 -4.730544,2.573375 0,0 2.15019,2.586065 4.730544,2.584796 2.581623,-0.0025 4.731813,-2.587333 4.731813,-2.587333 0,0 -2.15019,-2.572741 -4.731813,-2.570838 z m 0,4.388569 c -0.999277,0 -1.809484,-0.810207 -1.809484,-1.810118 0,-0.997373 0.810207,-1.809484 1.809484,-1.809484 0.998008,0 1.808215,0.812111 1.808215,1.809484 0,0.999911 -0.810207,1.810118 -1.808215,1.810118 z"
+     id="path3890-6-9"
+     style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:1.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <circle
+     cx="29.207001"
+     cy="25.863001"
+     r="1.294"
+     transform="matrix(0.63446135,0,0,0.63446135,18.869592,11.689144)"
+     id="circle3892-5-0"
+     style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <g
+     transform="matrix(0.63446135,0,0,0.63446135,-0.87740642,27.991621)"
+     id="g3882-33"
+     style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+    <g
+       id="g3884-3"
+       style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+      <polygon
+         points="15.204,13.812 15.204,35.189 43.041,35.189 43.041,21.577 35.281,13.812 "
+         id="polygon3886-7"
+         style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <polyline
+         id="polyline3888-46"
+         points="35.281,13.812 35.281,21.577 43.041,21.577    "
+         style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+  </g>
+  <g
+     transform="matrix(0.63446135,0,0,0.63446135,-1.2131341,27.94683)"
+     id="g3882-5-5"
+     style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+    <g
+       id="g3884-1-2"
+       style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+      <polygon
+         points="35.281,13.812 15.204,13.812 15.204,35.189 43.041,35.189 43.041,21.577 "
+         id="polygon3886-0-15"
+         style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <polyline
+         id="polyline3888-4-0"
+         points="35.281,13.812 35.281,21.577 43.041,21.577    "
+         style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+  </g>
+  <path
+     d="m 17.263333,41.546826 c -2.580355,0 -4.730544,2.573375 -4.730544,2.573375 0,0 2.150189,2.586065 4.730544,2.584796 2.581622,-0.0025 4.731812,-2.587333 4.731812,-2.587333 0,0 -2.15019,-2.572741 -4.731812,-2.570838 z m 0,4.388569 c -0.999277,0 -1.809485,-0.810207 -1.809485,-1.810118 0,-0.997373 0.810208,-1.809484 1.809485,-1.809484 0.998007,0 1.808214,0.812111 1.808214,1.809484 0,0.999911 -0.810207,1.810118 -1.808214,1.810118 z"
+     id="path3890-6-93"
+     style="fill:none;stroke:&stroke_color;;stroke-width:1.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <circle
+     cx="29.207001"
+     cy="25.863001"
+     r="1.294"
+     transform="matrix(0.63446135,0,0,0.63446135,-1.2667463,27.716837)"
+     id="circle3892-5-8"
+     style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <g
+     transform="matrix(0.63446135,0,0,0.63446135,19.258932,27.963928)"
+     id="g3882-3-5"
+     style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+    <g
+       id="g3884-0-1"
+       style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+      <polygon
+         points="15.204,35.189 43.041,35.189 43.041,21.577 35.281,13.812 15.204,13.812 "
+         id="polygon3886-3-7"
+         style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <polyline
+         id="polyline3888-8-1"
+         points="35.281,13.812 35.281,21.577 43.041,21.577    "
+         style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+  </g>
+  <g
+     transform="matrix(0.63446135,0,0,0.63446135,18.923204,27.919137)"
+     id="g3882-5-8-6"
+     style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+    <g
+       id="g3884-1-8-9"
+       style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+      <polygon
+         points="15.204,13.812 15.204,35.189 43.041,35.189 43.041,21.577 35.281,13.812 "
+         id="polygon3886-0-1-6"
+         style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <polyline
+         id="polyline3888-4-3-0"
+         points="35.281,13.812 35.281,21.577 43.041,21.577    "
+         style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+  </g>
+  <path
+     d="m 37.399671,41.519133 c -2.580354,0 -4.730544,2.573375 -4.730544,2.573375 0,0 2.15019,2.586065 4.730544,2.584796 2.581623,-0.0025 4.731813,-2.587333 4.731813,-2.587333 0,0 -2.15019,-2.572741 -4.731813,-2.570838 z m 0,4.388569 c -0.999277,0 -1.809484,-0.810207 -1.809484,-1.810118 0,-0.997373 0.810207,-1.809484 1.809484,-1.809484 0.998008,0 1.808215,0.812111 1.808215,1.809484 0,0.999911 -0.810207,1.810118 -1.808215,1.810118 z"
+     id="path3890-6-9-8"
+     style="fill:none;stroke:&stroke_color;;stroke-width:1.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <circle
+     cx="29.207001"
+     cy="25.863001"
+     r="1.294"
+     transform="matrix(0.63446135,0,0,0.63446135,18.869592,27.689144)"
+     id="circle3892-5-0-6"
+     style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <g
+     transform="matrix(0.63446135,0,0,0.63446135,-0.87740642,-4.0083783)"
+     id="g3882-0"
+     style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+    <g
+       id="g3884-5"
+       style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+      <polygon
+         points="35.281,13.812 15.204,13.812 15.204,35.189 43.041,35.189 43.041,21.577 "
+         id="polygon3886-33"
+         style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <polyline
+         id="polyline3888-9"
+         points="35.281,13.812 35.281,21.577 43.041,21.577    "
+         style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+  </g>
+  <g
+     transform="matrix(0.63446135,0,0,0.63446135,-1.2131341,-4.0531694)"
+     id="g3882-5-88"
+     style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+    <g
+       id="g3884-1-84"
+       style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+      <polygon
+         points="43.041,21.577 35.281,13.812 15.204,13.812 15.204,35.189 43.041,35.189 "
+         id="polygon3886-0-6"
+         style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <polyline
+         id="polyline3888-4-38"
+         points="35.281,13.812 35.281,21.577 43.041,21.577    "
+         style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+  </g>
+  <path
+     d="m 17.263333,9.546827 c -2.580355,0 -4.730544,2.573375 -4.730544,2.573375 0,0 2.150189,2.586064 4.730544,2.584796 2.581622,-0.0025 4.731812,-2.587334 4.731812,-2.587334 0,0 -2.15019,-2.5727404 -4.731812,-2.570837 z m 0,4.388569 c -0.999277,0 -1.809485,-0.810207 -1.809485,-1.810118 0,-0.997374 0.810208,-1.809484 1.809485,-1.809484 0.998007,0 1.808214,0.81211 1.808214,1.809484 0,0.999911 -0.810207,1.810118 -1.808214,1.810118 z"
+     id="path3890-6-7"
+     style="fill:none;stroke:&stroke_color;;stroke-width:1.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <circle
+     cx="29.207001"
+     cy="25.863001"
+     r="1.294"
+     transform="matrix(0.63446135,0,0,0.63446135,-1.2667463,-4.2831619)"
+     id="circle3892-5-08"
+     style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <g
+     transform="matrix(0.63446135,0,0,0.63446135,19.258932,-4.036071)"
+     id="g3882-3-56"
+     style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+    <g
+       id="g3884-0-2"
+       style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+      <polygon
+         points="15.204,13.812 15.204,35.189 43.041,35.189 43.041,21.577 35.281,13.812 "
+         id="polygon3886-3-1"
+         style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <polyline
+         id="polyline3888-8-0"
+         points="35.281,13.812 35.281,21.577 43.041,21.577    "
+         style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+  </g>
+  <g
+     transform="matrix(0.63446135,0,0,0.63446135,18.923204,-4.0808621)"
+     id="g3882-5-8-9"
+     style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+    <g
+       id="g3884-1-8-2"
+       style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+      <polygon
+         points="35.281,13.812 15.204,13.812 15.204,35.189 43.041,35.189 43.041,21.577 "
+         id="polygon3886-0-1-8"
+         style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <polyline
+         id="polyline3888-4-3-08"
+         points="35.281,13.812 35.281,21.577 43.041,21.577    "
+         style="fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+  </g>
+  <path
+     d="m 37.399671,9.5191343 c -2.580354,0 -4.730544,2.5733747 -4.730544,2.5733747 0,0 2.15019,2.586065 4.730544,2.584796 2.581623,-0.0025 4.731813,-2.587333 4.731813,-2.587333 0,0 -2.15019,-2.5727411 -4.731813,-2.5708377 z m 0,4.3885697 c -0.999277,0 -1.809484,-0.810208 -1.809484,-1.810119 0,-0.997373 0.810207,-1.809484 1.809484,-1.809484 0.998008,0 1.808215,0.812111 1.808215,1.809484 0,0.999911 -0.810207,1.810119 -1.808215,1.810119 z"
+     id="path3890-6-9-88"
+     style="fill:none;stroke:&stroke_color;;stroke-width:1.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <circle
+     cx="29.207001"
+     cy="25.863001"
+     r="1.294"
+     transform="matrix(0.63446135,0,0,0.63446135,18.869592,-4.3108546)"
+     id="circle3892-5-0-4"
+     style="fill:none;stroke:&stroke_color;;stroke-width:2.36421013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
 </svg>
