@@ -18,8 +18,7 @@ from sugar3.activity.widgets import ActivityToolbarButton
 from sugar3.graphics.toolbarbox import ToolbarBox
 from sugar3.activity.widgets import StopButton
 from sugar3.graphics.toolbutton import ToolButton
-# from sugar3.activity.widgets import _create_activity_icon as ActivityIcon
-from sugar3.graphics.alert import NotifyAlert
+from sugar3.graphics.alert import ErrorAlert
 from sugar3.graphics import style
 from sugar3.datastore import datastore
 from sugar3 import profile
@@ -86,6 +85,7 @@ class ClipArtActivity(activity.Activity):
         toolbarbox.show_all()
         self.show_all()
 
+        self.get_window().set_cursor(Gdk.Cursor.new(Gdk.CursorType.WATCH))
         self._notify()
 
         GObject.idle_add(_fill_clipart_list, store)
@@ -130,12 +130,13 @@ class ClipArtActivity(activity.Activity):
         self.save_button.set_sensitive(True)
 
     def _notify(self):
-        alert = NotifyAlert()
+        alert = ErrorAlert()
         alert.props.title = _('Scanning for clipart')
         msg = _('Please wait.')
         alert.props.msg = msg
 
         def remove_alert(alert, response_id):
+            self.get_window().set_cursor(None)
             self.remove_alert(alert)
 
         alert.connect('response', remove_alert)
