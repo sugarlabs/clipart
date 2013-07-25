@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 12:56-0400\n"
+"POT-Creation-Date: 2013-07-25 09:50-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,14 +25,14 @@ msgstr ""
 msgid "displays available clipart that can be saved to the Sugar Journal"
 msgstr ""
 
-#: activity.py:59
+#: activity.py:53
 msgid "Save to Journal"
 msgstr ""
 
-#: activity.py:155
+#: activity.py:134
 msgid "Scanning for clipart"
 msgstr ""
 
-#: activity.py:156
+#: activity.py:135
 msgid "Please wait."
 msgstr ""
