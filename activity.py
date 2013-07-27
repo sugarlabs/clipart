@@ -78,6 +78,9 @@ class ClipArtActivity(activity.Activity):
         icon_view.set_selection_mode(Gtk.SelectionMode.SINGLE)
         icon_view.connect('selection-changed', self._clipart_selected, store)
         icon_view.set_pixbuf_column(0)
+        rgba = Gdk.RGBA()
+        rgba.red, rgba.green, rgba.blue, rgba.alpha = 0.67, 0.67, 0.67, 1.0
+        icon_view.override_background_color(Gtk.StateFlags.NORMAL, rgba)
         icon_view.grab_focus()
         scrolled_window.add(icon_view)
         icon_view.show()

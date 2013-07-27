@@ -4,5 +4,5 @@ bundle_id = org.sugarlabs.ClipArt
 icon = activity
 exec = sugar-activity activity.ClipArtActivity
 show_launcher = yes
-activity_version = 1
+activity_version = 2
 summary = displays available clipart that can be saved to the Sugar Journal
