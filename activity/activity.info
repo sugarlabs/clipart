@@ -6,4 +6,4 @@ exec = sugar-activity activity.ClipArtActivity
 show_launcher = yes
 activity_version = 2
 summary = displays available clipart that can be saved to the Sugar Journal
-categories = art system
+category = art system
