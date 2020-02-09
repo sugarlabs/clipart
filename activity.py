@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#Copyright (c) 2011-2013 Walter Bender
+# Copyright (c) 2011-2013 Walter Bender
 
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -114,7 +114,7 @@ class ClipArtActivity(activity.Activity):
             image_path = store.get(iter_, 1)[0]
 
             return image_path, iter_
-        except:
+        except BaseException:
             return None
 
     def _clipart_selected(self, widget, store):
@@ -156,7 +156,7 @@ def _fill_clipart_list(store):
             pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size(
                 filepath, style.XLARGE_ICON_SIZE,
                 style.XLARGE_ICON_SIZE)
-        except:
+        except BaseException:
             pass
         else:
             store.append([pixbuf, filepath])
